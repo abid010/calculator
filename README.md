@@ -1,1 +1,1 @@
-Calculator uses css html and js.
+Calculator Using  CSS HTML and JS.
