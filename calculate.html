@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>1</title>
+</head>
+<script>
+	{
+        alert("Welcome to calculator");
+	}
+</script>
+<div class="body">
+<body bgcolor="black">
+
+	<div class ="formstyle">
+	
+<form name = "form1">
+<div class="header">
+	<a href="https://github.com/mabid23"><tt>Github</tt></a>
+	<tt><center>Calculator</center></tt></div><br>
+	
+
+	<input id ="calc"placeholder="           <--Calculate Here-->." name="answer"><br><br>
+
+ 
+    <div class="change">
+ 	<input type="button"value="C"onclick="form1.answer.value=''"id="clear">
+	<input type="button"value="%"onclick="form1.answer.value+='%'">
+	<input type="button"value="/"onclick="form1.answer.value+='/'">
+	<input type="button"value="Del"onclick="form1.answer.value=''" id='backspace()'>
+	<br><br>
+   
+	<input type="button"value="7"onclick="form1.answer.value+='7'">
+	<input type="button"value="8"onclick="form1.answer.value+='8'">
+	<input type="button"value="9"onclick="form1.answer.value+='9'">
+	<input type="button"value="*"onclick="form1.answer.value+='*'"><br><br>
+	
+	<input type="button"value="4"onclick="form1.answer.value+='4'">
+	<input type="button"value="5"onclick="form1.answer.value+='5'">
+	<input type="button"value="6"onclick="form1.answer.value+='6'">
+	<input type="button"value="-"onclick="form1.answer.value+='-'"><br><br>
+	
+	<input type="button"value="1"onclick="form1.answer.value+='1'">
+	<input type="button"value="2"onclick="form1.answer.value+='2'">
+	<input type="button"value="3"onclick="form1.answer.value+='3'">
+	<input type="button"value="+"onclick="form1.answer.value+='+'"><br><br>
+
+
+	<input type="button"value="0"onclick="form1.answer.value+='0'">
+	<input type="button"value="00"onclick="form1.answer.value+='00'">
+	<input type="button"value="."onclick="form1.answer.value+='.'">
+	<input type="button"value="="onclick="form1.answer.value=eval(form1.answer.value)"><br><br></div>
+</div>
+</form>
+<style>
+
+.formstyle  
+{  
+width: 300px;  
+height: 630px;  
+margin: auto;  
+border: 3px solid lightblue;  
+border-radius: 5px;  
+padding: 10px;
+background-color:lightblue;  
+}  
+ input  
+{  
+width: 3px;  
+background-color:antiquewhite;  
+color: black;  
+border: 3px darkred gold fuchsia lemonchiffon;  
+    border-radius: 100px;  
+    padding: 29px;  
+    margin: 4px;  
+    font-size: 14px; 
+    
+}  
+  
+  
+#calc{  
+	background-color:khaki;
+width: 250px;  
+border: 5px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+}
+#clear
+{
+	background-color:red;
+}
+.header
+{
+	color:black;
+
+}
+.body
+{
+   background-color:black;
+  
+   
+}
+.change:hover
+{
+	background:radial-gradient(circle,yellow,green,orange);
+}
+
+  
+</style>  
+</div>
+  
+
+     
+
+</body>
+</html>
